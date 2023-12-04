@@ -10,6 +10,15 @@ body {
   font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: #1C7ED6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   padding: 100px 24px;
   text-align: center;
@@ -19,4 +28,11 @@ header h1 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
