@@ -36,3 +36,14 @@ header div {
   justify-content: center;
   gap: 24px;
 }
+
+#about {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+}
+
+#about p {
+  line-height: 1.5;
+  margin: 8px 0;
+}
